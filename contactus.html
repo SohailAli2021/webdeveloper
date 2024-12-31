@@ -89,7 +89,7 @@
                 <a class="nav-link active" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="About.html">About us</a>
+                <a class="nav-link" href="Aboutus.html">About us</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" 
@@ -97,22 +97,22 @@
                   Category
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="bikes.html">Bikes</a></li>
-                  <li><a class="dropdown-item" href="cars.html">Cars</a></li>
+                  <li><a class="dropdown-item" href="#">Bikes</a></li>
+                  <li><a class="dropdown-item" href="#">Cars</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Service.html">Service</a>
+                <a class="nav-link" href="#">Service</a>
               </li>
 
               <li class="nav-item">
                 <a class="nav-link" href="Gallery.html">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Contactus.html">Contact</a>
+                <a class="nav-link" href="">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#mymodal">Feedback</a>
+                <a class="nav-link" href="#">Feedback</a>
               </li>
             </ul>
             
@@ -126,42 +126,86 @@
 
         <!-- End Navbar -->
 
-
-
-
-
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://images.pexels.com/photos/185933/pexels-photo-185933.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="https://images.pexels.com/photos/139764/pexels-photo-139764.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="https://images.pexels.com/photos/1008000/pexels-photo-1008000.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100" alt="...">
-              </div>
+<br><br><br>
+          <!-- Contact Start -->
+            
+          <div class="container" style="background-color: bisque;">
+            <div class="section-header text-center">
+                <p>Get In Touch</p>
+                <h2>For Any Query</h2>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="flaticon-address"></i>
+                            <div class="contact-text">
+                                <h2>Location</h2>
+                                <p> DHA, Phase 5</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="flaticon-call"></i>
+                            <div class="contact-text">
+                                <h2>Phone</h2>
+                                <p>+012 345 67890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="flaticon-send-mail"></i>
+                            <div class="contact-text">
+                                <h2>Email</h2>
+                                <p>Atlantis@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-secondary" type="submit" id="sendMessageButton">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Contact End -->
+
+<br><br><br>
+     
+
+
+
+
 <div class="footer-clean">
 
         <footer>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-3 ">
-                        <h3>Address</h3>
+                        <h3 data-aos="fade-up" data-aos-duration="900">Address</h3>
                   
-                        <p>Office no. 603, 6th Floor, Al Hafeez Shopping
+                        <p data-aos="fade-up" data-aos-duration="1200">Office no. 603, 6th Floor, Al Hafeez Shopping
                             Mall, Gulberg III, Lahore</p>
                         <div class="mt-3">
                             <iframe
@@ -170,12 +214,10 @@
                             </iframe>
                         </div>
                     </div>
-
-
                     <div class=" col-md-3 ">
-                        <h3>Help Us</h3>
-                        <ul class="mt-3">
-                            <li><a href="">Home</a></li>
+                        <h3 data-aos="fade-up" data-aos-duration="900">Help Us</h3>
+                        <ul class="ml-3" data-aos="fade-up" data-aos-duration="1200">
+                            <li><a href="#">Home</a></li>
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Gallery</a></li>
                             <li><a href="#">Contact Us</a></li>
@@ -184,9 +226,9 @@
                         </ul>
                     </div>
                     <div class=" col-md-3 ">
-                        <h3>Follow Us</h3>
+                        <h3 data-aos="fade-up" data-aos-duration="900">Follow Us</h3>
                         <div class="">
-                            <ul >
+                            <ul data-aos="fade-up" data-aos-duration="1200">
                                 <li style="font-size: 30px; margin-left: 40px; padding-top: 10px;"><a href="#"><i
                                             class="fab fa-facebook-square"></i></a></li>
                                 <li style="font-size: 30px; margin-left: 40px; padding-top: 10px;"><a href="#"><i
@@ -198,9 +240,9 @@
                     </div>
                     <div class="col-lg-3 item social">
                         <div>
-                            <h3>Contact Us</h3>
+                            <h3 data-aos="fade-up" data-aos-duration="900">Contact Us</h3>
                         </div>
-                        <form id="f-form">
+                        <form id="f-form" data-aos="fade-up" data-aos-duration="1200">
                             <fieldset class="form-group">
                                 <input type="email" class="form-control" id="exampleInputEmail1"
                                     placeholder="Enter email">
@@ -239,43 +281,7 @@
 
 
 
-<!-- Feedback -->
 
-
-    <div class="modal" id="mymodal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-                <div class="modal-header">
-                    <h4 class="modal-title">Feedback Form:</h4>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-
-                </div>
-
-                <div class="modal-body">
-
-                    <label>First Name :</label>
-
-                    <input type="text" aria-label="First name" class="form-control">
-                    <Label>Last Name :</Label>
-                    <input type="text" aria-label="Last name" class="form-control">
-
-                    <Label>Contact :</Label>
-                    <input type="text" aria-label="Last name" class="form-control">
-
-
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Submit</button>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
 
 
 
